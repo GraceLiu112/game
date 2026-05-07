@@ -1,0 +1,18 @@
+int mode;
+int INTRO = 0;
+int GAME = 1;
+int PAUSE = 2;
+int GAMEOVER = 3;
+
+void setup(){
+  size(800, 800);
+  mode = INTRO;
+}
+
+void draw(){
+  if(mode == INTRO){}
+  else if(mode == GAME){}
+  else if(mode == PAUSE){}
+  else if(mode == GAMEOVER){}
+  else{}
+}
