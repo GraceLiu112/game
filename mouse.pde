@@ -1,14 +1,14 @@
 void mouseReleased(){
-  if(mode = Intro){
+  if(mode == INTRO){
     introClicks();
   }
-  else if( if mode == GAME){
+  else if(mode == GAME){
     gameClicks();
   }
-  else if( if mode == PAUSE){
+  else if(mode == PAUSE){
     pauseClicks();
   }
-  else if( if mode == GAMEOVER){
+  else if(mode == GAMEOVER){
     gameoverClicks();
   }
 }
