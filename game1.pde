@@ -11,6 +11,8 @@ final int GAMEOVER = 3;
 
 //target variables
 float x, y, d;
+float vx, vy;
+
 //color pallete
 
 void setup(){
@@ -23,6 +25,8 @@ void setup(){
   x = width/2;
   y = height/2;
   d = 100;
+  vx = random(-5, 5);
+  vy = random(-5, 5);
 }
 
 void draw(){

@@ -1,8 +1,6 @@
 void intro(){
   background(188, 224, 255);
   fill(255, 204, 126);
-  stroke(255, 103, 72);
-  strokeWeight(7);
   rect(390, 600, 220, 100);
   textSize(50);
   fill(0);
