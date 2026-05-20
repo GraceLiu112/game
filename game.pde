@@ -22,5 +22,7 @@ void game(){
 }
 
 void gameClicks(){
-  //mode = GAMEOVER;
+  if(dist(mouseX, mouseY, x, y)<50){
+  
+  }
 }
