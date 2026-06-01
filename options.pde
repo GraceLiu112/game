@@ -19,7 +19,6 @@ void options(){
   stroke(0);
   fill(0);
   strokeWeight(5);
-  tactile(150, 450, 150, 650);
   line(150, 450, 150, 650);
   fill(255);
   strokeWeight(3);

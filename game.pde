@@ -6,11 +6,15 @@ void game(){
   textSize(40);
   text("Score: " + score, width/2, 50);
   text("Lives: " + lives, width/2, 100);
+  textSize(0);
   
   //pause button
   stroke(0);
   fill(255);
   circle(100, 100, 100);
+  strokeWeight(5);
+  line(85, 75, 85, 125);
+  line(110, 75, 110, 125);
   
   //display target
   fill(255);

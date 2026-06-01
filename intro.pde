@@ -1,6 +1,7 @@
 void intro(){
-  
   theme.play();
+  score = 0;
+  lives = 3;
   background(191, 162, 133);
   fill(255);
   textSize(80);
