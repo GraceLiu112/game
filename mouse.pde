@@ -1,4 +1,3 @@
-
 void mouseDragged(){
   if(mode == OPTIONS){
     controlSlider();

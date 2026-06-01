@@ -30,10 +30,10 @@ void game(){
   y += vy;
   
   //bouncing
-  if (x < d/2 || x > width-d/2){
+  if (x < size/2 || x > width-size/2){
     vx = vx * -1;
   }
-  if(y < d/2 || y > height-d/2){
+  if(y < size/2 || y > height-size/2){
     vy = vy * -1;
   }
 
