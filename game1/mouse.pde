@@ -1,0 +1,25 @@
+void mouseDragged(){
+  if(mode == OPTIONS){
+    controlSlider();
+    chooseImage();
+  }
+}
+void mouseReleased(){
+  if(mode == INTRO){
+    introClicks();
+  }
+  else if(mode == OPTIONS){
+    controlSlider();
+    chooseImage();
+    optionsClicks();
+  }
+  else if(mode == GAME){
+    gameClicks();
+  }
+  else if(mode == PAUSE){
+    pauseClicks();
+  }
+  else if(mode == GAMEOVER){
+    gameoverClicks();
+  }
+}
